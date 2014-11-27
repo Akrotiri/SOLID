@@ -4,7 +4,7 @@ namespace Solid.Banker
     using System.Linq;
     using Logging;
 
-    public class Banker
+    public class Banker : IBanker
     {
         private readonly ILogger _logger;
         private readonly List<Account> _accounts;

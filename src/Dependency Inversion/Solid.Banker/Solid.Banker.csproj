@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="Account.cs" />
     <Compile Include="Banker.cs" />
+    <Compile Include="IBanker.cs" />
     <Compile Include="Logging\ConsoleLogger.cs" />
     <Compile Include="Logging\ILogger.cs" />
     <Compile Include="Logging\MessageBoxLogger.cs" />
